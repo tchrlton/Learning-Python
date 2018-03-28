@@ -1,0 +1,5 @@
+git init (initializing a git repo)
+git add (adding a file/folder to be stashed for commit)
+git commit -m "some kind of message" (the message for you commit)
+git push origin master (pushing you're code to cloud)
+git add remote origin $URL
