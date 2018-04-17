@@ -1,0 +1,11 @@
+a = open("a.txt", "r")
+a_value = a.read()
+a.close()
+b = open("b.txt","r")
+b_value = b.read()
+b.close()
+c = open("c.txt", "w")
+output = a_value + b_value
+sum_of_ab = int(output)
+c.write(str(sum_of_ab))
+c.close()
